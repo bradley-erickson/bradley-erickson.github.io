@@ -11,14 +11,14 @@ redirect_from:
 
 Education
 ======
+* North Carolina State University: Fall 2020 - Current
+  * Ph.D Computer Science
+
 * Winona State University: Spring 2020
   * B.S. Computer Science
   * B.S. Data Science
   * B.A. Mathematics
   * Minor Statistics
-
-* North Carolina State University: Fall 2020 - Current
-  * Ph.D Computer Science, 
 
 Work experience
 ======
@@ -47,7 +47,7 @@ Work experience
 
 Research
 ======
-* Using Natural Language Processing to Remove News Bias
+* Using natural language processing to remove news bias
   * Data Science capstone
   * University: WSU
   * Advisor: Dr. Deppa
