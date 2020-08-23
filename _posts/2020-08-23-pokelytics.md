@@ -1,10 +1,10 @@
 ---
-title: 'An Analytic Approach to the Pokemon Trading Card Game'
-date: 2020-08-23
+layout: single
+title: "An Analytic Approach to the Pokemon Trading Card Game"
+date: 2020-08-22
 permalink: /posts/2020/08/pokelytics-00/
 tags:
   - pokmeon
-  - blog
   - pokelytics
   = unsupervised learning
   - Principle Component Analysis
