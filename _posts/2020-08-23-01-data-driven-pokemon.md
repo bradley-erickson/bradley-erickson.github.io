@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "An Analytic Approach to the Pokemon Trading Card Game"
+title: "Data Driven Pokemon - Blog 1"
 date: 2020-08-22
-permalink: /posts/2020/08/pokelytics-00/
+permalink: /posts/2020/08/data-driven-pokemon-01/
 tags:
   - pokmeon
   - pokelytics
