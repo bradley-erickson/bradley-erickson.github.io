@@ -11,49 +11,49 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Computer Science, Winona State Unviersity 2020
+* B.S. Data Science, Winona State Unviersity 2020
+* B.A. Mathematics Science, Winona State Unviersity 2020
+* Ph.D Computer Science, North Carolina State University (current)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Fall 2020: Tearcher Assistant
+  * Course: CSC 226 - Discrete Math for Computer Science
+  * University: NCSU
+  * Duties included: Office hours, online forum moderation, grading
+  * Supervisor: Dr. Matt Stallmann
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2019: Intern
+  * Digi International
+  * Duties included: Agile team environment developing front end management portal
+  * Supervisor: Brad Cole
+
+* Fall 2018 - Fall 2019: Tutor
+  * Course: CS 250 - Algorithms & Problem Solving II, CS 375 - Computer System
+  * University: WSU
+  * Duties included: Office hours, in-class lab, grading
+  * Supervisor: Computer Science department
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Problem solving
+* Unsupervised Learning
+* R
+* Python
 
-Publications
+Honors & Awards
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Colloege of Science and Engineering Counsil - Member
+  * Fall 2019 - Spring 2020
+  * Chosen by faculty to be a liaison between students and the dean.
+* Midwest Undergraduate Data Analytics Competition - Best Overall
+  * Fall 2018
+  * Spent 24 hours cleaning and analyzing data from the Minnesota Wild. Presetned findings to peers and judges.
+* Honor Societies
+  * Pi Mu Epsilon
+    * Mathematical Honor Society
+    * Inducted Spring 2017
+  * Mu Sigma Rho
+    * Statistical Honor Society
+    * Inducted Spring 2019
