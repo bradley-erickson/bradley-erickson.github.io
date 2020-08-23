@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Brad Erickson"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "I am a PhD student at NC State University studying Computer Science. My research interests lie in Machine Learning and Data Science."
   location         : "North Carolina"
   employer         :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/bradley-erickson/"
+  linkedin         : "bradley-erickson"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "RaptorBrad_"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
