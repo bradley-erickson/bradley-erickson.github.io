@@ -1,5 +1,5 @@
 ---
-title: 'An Analytic Approach to the Pokémon Trading Card Game'
+title: 'An Analytic Approach to the Pokemon Trading Card Game'
 date: 2020-08-23
 permalink: /posts/2020/08/pokelytics-00/
 tags:
