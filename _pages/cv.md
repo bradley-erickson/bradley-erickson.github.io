@@ -52,19 +52,22 @@ Research
   * University: WSU
   * Advisor: Dr. Deppa
   * Aug. 2019 - Apr. 2020
-	* Use Python to implement an extractive based article summarizer. Input a variety of articles relating to a similar topic and output a summary consisting of sentences from the articles. Also analyze the choice of words based on news sources of similar bias rating to compare and contrast.
+  * Description:
+	  * Use Python to implement an extractive based article summarizer. Input a variety of articles relating to a similar topic and output a summary consisting of sentences from the articles. Also analyze the choice of words based on news sources of similar bias rating to compare and contrast.
 		
 * Comparing self-extracted to third-party audio for classifying genre
   * Computer Science capstone
   * University: WSU
   * Advisory: None
   * Jan. 2020 - Apr. 2020
-	* Using self-extracted and third-party audio features, two artificial neural networks are created to compare the accuracy in classifying the musical genre.
+  * Description:
+	  * Using self-extracted and third-party audio features, two artificial neural networks are created to compare the accuracy in classifying the musical genre.
 
 * Rhyme Scheme Pattern Detector
   * Independent Research
   * Spring 2019
-	* Used python to analyze the phonetics of lyrics to determine a rhyme scheme. Created 3 methods of checking: last word only, all phonetics, and only rhyming parts of words. Check the predicted pattern versus actual pattern for accuracy.
+  * Description:
+	  * Used python to analyze the phonetics of lyrics to determine a rhyme scheme. Created 3 methods of checking: last word only, all phonetics, and only rhyming parts of words. Check the predicted pattern versus actual pattern for accuracy.
   
 Skills
 ======
