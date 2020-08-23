@@ -69,10 +69,14 @@ Research
 Skills
 ======
 * Problem solving
-* Unsupervised Learning
-* R
-* Python
-* Latex
+* Machine Learning
+  * Neural networks
+  * Principle Component Analysis
+  * Market Basket Analysis
+* Programs
+  * R
+  * Python
+  * Latex
 
 Honors & Awards
 ======
