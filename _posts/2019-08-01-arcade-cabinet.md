@@ -27,24 +27,35 @@ Cabinet
 
 The cabinet I recieved was painted entirely black. Sadly, I forgot to take pictures of it in that state. I stripped the paint off using some paint remover. I was able to get down to the original paint, but not much more than that. The inside of the cabinet was already gutted down, so I will not be touching that in this section
 
-| ![Data snippet](/images/arcade/outside_before01.png) | ![Data snippet](/images/arcade/outside_before02.png) | ![Data snippet](/images/arcade/outside_before03.png) |
+| ![Data snippet](/images/arcade/outside_before01.jpg) | ![Data snippet](/images/arcade/outside_before02.jpg) | ![Data snippet](/images/arcade/outside_before03.jpg) |
 |:---:|:---:|:---:|
 | Original Star Gate logo | Another view of logo | Front view without back attached |
 
 I put down a primer coat of paint. My original design was to make a bunch of doodles on the sides, but I decided against that idea. The idea of *The Hive* popped into my head. Bee's are cool and the yellow will stand out. After a week of thinking, I decided on *The Hive*. I chose a basic design of honeycombs and a little bee flying through the air. My dad helped me create a stencil and did a good job helping me paint. We used black and yellow spraypaint for the background and bottom. For the honeycomb and bees, we used some black wood paint.
 
-| ![Data snippet](/images/arcade/outside_white01.png) | ![Data snippet](/images/arcade/outside_final01.png) | ![Data snippet](/images/arcade/outside_final02.png) |
+| ![Data snippet](/images/arcade/outside_white01.jpg) | ![Data snippet](/images/arcade/outside_final01.jpg) | ![Data snippet](/images/arcade/outside_final02.jpg) |
 |:---:|:---:|:---:|
 | Painted white | Final view 1 | Final view 2 |
 
 Controls
 ------
+
+Talk about controls
+
 Computer
 ------
+
+Raspberry Pi
+
 Power
 ------
+
+Power strip that everything is plugged into.
+
 Lights/Sound
 ------
+
+sound and light
 
 Software
 ======
