@@ -4,6 +4,7 @@ date: 2019-08-01
 permalink: /posts/2019/08/arcade-cabinet/
 tags:
   - arcade
+  - raspberry pi
   - hardware
 ---
 
@@ -33,26 +34,22 @@ The cabinet I recieved was painted entirely black. Sadly, I forgot to take pictu
 
 I put down a primer coat of paint. My original design was to make a bunch of doodles on the sides, but I decided against that idea. The idea of *The Hive* popped into my head. Bee's are cool and the yellow will stand out. After a week of thinking, I decided on *The Hive*. I chose a basic design of honeycombs and a little bee flying through the air. My dad helped me create a stencil and did a good job helping me paint. We used black and yellow spraypaint for the background and bottom. For the honeycomb and bees, we used some black wood paint.
 
-| ![Data snippet](/images/arcade/outside_white01.jpg) | ![Data snippet](/images/arcade/outside_final01.jpg) | ![Data snippet](/images/arcade/outside_final02.jpg) |
+| ![Data snippet](/images/arcade/outside_white01.jpg) | ![Data snippet](/images/arcade/outside_paint01.jpg) | ![Data snippet](/images/arcade/outside_paint02.jpg) |
 |:---:|:---:|:---:|
-| Painted white | Final view 1 | Final view 2 |
+| Painted white | Painting view 1 | Painting view 2 |
 
-Controls
+
+| ![Data snippet](/images/arcade/outside_final01.jpg) | ![Data snippet](/images/arcade/outside_final02.jpg) |
+|:---:|:---:|
+| Final view 1 | Final view 2 |
+
+
+Controls/Computer 
 ------
 
 Talk about controls
 
-Computer
-------
-
-Raspberry Pi
-
-Power
-------
-
-Power strip that everything is plugged into.
-
-Lights/Sound
+Lights/Sound/Secuirty
 ------
 
 sound and light
