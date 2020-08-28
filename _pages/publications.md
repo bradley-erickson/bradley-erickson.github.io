@@ -11,8 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<p>Coming soon!</p>
-
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
