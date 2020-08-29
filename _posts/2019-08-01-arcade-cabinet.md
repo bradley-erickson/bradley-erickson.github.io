@@ -65,7 +65,7 @@ My dad built the piece of wood that we attached the control print and computer t
 
 The last piece of the controls, came a few months after I finished the project. I found that on the N64 emulator, I could not remap buttons to be combinations (like shift + R). Most emulators allow this and use this for the save/load/exit buttons. To resolve this, I created a save/load/exit section with a numpad for choosing which save slot to use. I plugged the buttons into the IPAC controller and the number directly into the Raspberry Pi.
 
-![Save/Load/Exit piece](/images/arcade/controls_numpad.jpg)
+![Save/Load/Exit piece](/images/arcade/controls_numpad.jpg){ width=50% }
 
 ### Lights/Sound/Screen/Security
 
