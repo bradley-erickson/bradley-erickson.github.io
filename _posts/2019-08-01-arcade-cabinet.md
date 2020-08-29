@@ -2,13 +2,12 @@
 title: 'Refurbishing an old arcade cabinet'
 date: 2019-08-01
 permalink: /posts/2019/08/arcade-cabinet/
+excerpt: 'In the summer of 2019, I spent time refurbishing an old arcade cabinet. I will be updating this periodically with how I did it!'
 tags:
   - arcade
   - raspberry pi
   - hardware
 ---
-
-### Under Construction
 
 In the summer of 2019, I spent time refurbishing an old arcade cabinet. I will be updating this periodically with how I did it!
 
@@ -42,22 +41,42 @@ I put down a primer coat of paint. My original design was to make a bunch of doo
 
 ### Controls/Computer
 
-I had an extra Raspberry Pi sitting around, so I figured it would use that for the computer. For controls, I did some research into what setup each player should have. After reviewing common day fighting game boards and looking for parts, I decided each player will have 1 joy-con, 8 buttons, and a start button. For computer to controls, I narrowed it down to 2 options: IPAC and Plug-n-Play boards. I decided on IPAC so I didn't have to deal with adding connectors. Essentially the board shown below with all the wires going into it, will act like a keyboard. That means each control is mapped to a single key (I'll go into setting this up in a later section). Luckily, I found an IPAC setup with wires, 18 buttons, and 2 joy-cons from UltraCabs online [here](https://www.ultracabs.co.uk) (last I checked the website was down).
+I had an extra Raspberry Pi sitting around, so I figured it would use that for the computer. For controls, I did some research into what setup each player should have. After reviewing common day fighting game boards and looking for parts, I decided each player will have 1 joy-con, 8 buttons, and a start button. For computer to controls, I narrowed it down to 2 options: IPAC and Plug-n-Play boards. I decided on IPAC so I did not have to deal with adding connectors. Essentially the board shown below with all the wires going into it, will act like a keyboard. That means each control is mapped to a single key (I will go into setting this up in a later section). Luckily, I found an IPAC setup with wires, 18 buttons, and 2 joy-cons from UltraCabs online [here](https://www.ultracabs.co.uk) (last I checked the website was down).
 
 | ![Control design 01](/images/arcade/controls_design01.jpg) | ![Control design 02](/images/arcade/controls_design02.jpg) |
 |:---:|:---:|
 | Initial design | Final design |
 
 I took some schematics of fighting game boards as a starting point for designing the board. I finalized the design on paper and transferred it to a 3D file. The initial design accounted for the entire control block to be 3D printed, but after analyzing the cost, I scrapped that idea. I went for a simpler design that I could attach to wood. Winona State University, the school I did my undergrad at, offered 3D printing for students, but had size limitations. I cut down the singular long piece and added some constraints to get printed as well.
+
 **Improvement:** I must have been too excited while designing this, because I overlooked 1 crucial piece. The joy-con is supposed to under the top not over. Luckily, this is not a huge deal, just aesthetics.
 
 | ![Control print 01](/images/arcade/controls_print01.jpg) | ![Control print 02](/images/arcade/controls_print02.jpg) |
 |:---:|:---:|
 | Prints unassembled | Assembled with buttons |
 
-### Lights/Sound/Security
+![Controls assembled](/images/arcade/controls_assembled.jpg)
 
-sound and light
+My dad built the piece of wood that we attached the control print and computer to. Once I picked out spots for everything, I cut all the wires and started wiring the buttons. I had some leftover command strips so I used those to pretty up the wiring. A major difficult was attached this control block to the unit. I mismeasured the pillars and got really close to one of attachment holes. I added a gate latch to hold it in place and to have quick access if something breaks. On the mounted picture, notice the 2 wires for controls (1 for powering lights, 1 for the actual controls), an HDMI-DVI connector, and power.
+
+| ![Control wiring 01](/images/arcade/controls_wiring.jpg) | ![Control wiring 02](/images/arcade/controls_wiring_mounted.jpg) |
+|:---:|:---:|
+| Controls wired | Control unit mounted |
+
+### Lights/Sound/Screen/Security
+
+For the marquee light, I picked up an under cabinet/work bench light from Menard's. I did not want initially invest too much into the marquee label, so I printed off my design on thin paper and taped it to plexiglass. For the sound, I used an old amp I got from [Amazon](https://www.amazon.com/gp/product/B018QKX8E0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) a few years ago combined with some speakers I tore apart from Goodwill. I know enough about speaker setup to solder some wires to the speakers and plug those wires into the amp. I use a 2-1 audio cable to connect the amp to the HDMI connected attached to the Raspberry Pi. Back in my high school gaming days, I had two monitors for my desktop. I had not been using both for a while so I put one in the cabinet. My dad built the walls of the "hallway" leading from the player to the screen. The power is located in the coin drop. Just flip the power switch and everything will turn on.
+Finally, for security, I use a variety of tubular locks: 1 for the coin slot (access to the amp), 1 to the power, and 1 to open up the backside. 
+
+**Improvement** Replace the marquee with a better print and get a brighter light.
+
+| ![Lights and sound 01](/images/arcade/lights_sound01.jpg) | ![Lights and sound 02](/images/arcade/lights_sound02.jpg) |
+|:---:|:---:|
+| Marquee light and speakers | Lit marquee |
+
+| ![Lights and sound 03](/images/arcade/lights_sound03.jpg) | ![Power](/images/arcade/power01.jpg) |
+|:---:|:---:|
+| Mounted amp | Power strip in coin drop |
 
 ## Software
 
