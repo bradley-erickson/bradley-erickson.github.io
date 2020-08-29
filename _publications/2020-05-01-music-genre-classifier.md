@@ -1,9 +1,10 @@
 ---
 title: "Comparing self-extracted to third-party audio features for music genre classification"
-collection: Projects
+collection: projects
 permalink: /publication/2020-05-1-music-genre-classifier
 excerpt: 'There is no definitive way to determine what genre music falls into. Conducting an analysis into the different audio features could prove useful in creating an automated process for determining genre. Using self-extracted audio features and third-party audio features, we create two artificial neural networks that will classify the song genre. Comparing our models with test data, we find self-extracted features do a better job at predicting genre.'
-
+date: 2020-05-01
+venue: '20th conference'
 paperurl: 'https://cs.winona.edu/cs-website/current_students/Projects/'
 citation: 'Erickson, Bradley. (2020). &quot;Comparing self-extracted to third-party audio features for music genre classification&quot;'
 ---
