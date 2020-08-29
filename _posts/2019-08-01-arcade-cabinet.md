@@ -55,7 +55,9 @@ I took some schematics of fighting game boards as a starting point for designing
 |:---:|:---:|
 | Prints unassembled | Assembled with buttons |
 
-![Controls assembled|512x397,100%](/images/arcade/controls_assembled.jpg)
+| ![Controls assembled](/images/arcade/controls_assembled.jpg) |
+|:---:|
+| Controls assembled |
 
 My dad built the piece of wood that we attached the control print and computer to. Once I picked out spots for everything, I cut all the wires and started wiring the buttons. I had some leftover command strips so I used those to pretty up the wiring. A major difficult was attached this control block to the unit. I mismeasured the pillars and got really close to one of attachment holes. I added a gate latch to hold it in place and to have quick access if something breaks. On the mounted picture, notice the 2 wires for controls (1 for powering lights, 1 for the actual controls), an HDMI-DVI connector, and power.
 
@@ -65,9 +67,7 @@ My dad built the piece of wood that we attached the control print and computer t
 
 The last piece of the controls, came a few months after I finished the project. I found that on the N64 emulator, I could not remap buttons to be combinations (like shift + R). Most emulators allow this and use this for the save/load/exit buttons. To resolve this, I created a save/load/exit section with a numpad for choosing which save slot to use. I plugged the buttons into the IPAC controller and the number directly into the Raspberry Pi.
 
-![Save/Load/Exit piece](/images/arcade/controls_numpad.jpg =50x)
-
-![Save/Load/Exit piece](/images/arcade/controls_numpad.jpg | width=100)
+![Save/Load/Exit piece](/images/arcade/controls_numpad.jpg)
 
 ### Lights/Sound/Screen/Security
 
