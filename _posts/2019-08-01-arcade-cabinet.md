@@ -9,7 +9,7 @@ tags:
   - hardware
 ---
 
-In the summer of 2019, I spent time refurbishing an old arcade cabinet. I will be updating this periodically with how I did it!
+In the summer of 2019, I spent time refurbishing an old arcade cabinet. Here's how:
 
 ## Introduction
 
@@ -63,6 +63,10 @@ My dad built the piece of wood that we attached the control print and computer t
 |:---:|:---:|
 | Controls wired | Control unit mounted |
 
+The last piece of the controls, came a few months after I finished the project. I found that on the N64 emulator, I could not remap buttons to be combinations (like shift + R). Most emulators allow this and use this for the save/load/exit buttons. To resolve this, I created a save/load/exit section with a numpad for choosing which save slot to use. I plugged the buttons into the IPAC controller and the number directly into the Raspberry Pi.
+
+![Save/Load/Exit piece](/images/arcade/controls_numpad.jpg)
+
 ### Lights/Sound/Screen/Security
 
 For the marquee light, I picked up an under cabinet/work bench light from Menard's. I did not want initially invest too much into the marquee label, so I printed off my design on thin paper and taped it to plexiglass. For the sound, I used an old amp I got from [Amazon](https://www.amazon.com/gp/product/B018QKX8E0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) a few years ago combined with some speakers I tore apart from Goodwill. I know enough about speaker setup to solder some wires to the speakers and plug those wires into the amp. I use a 2-1 audio cable to connect the amp to the HDMI connected attached to the Raspberry Pi. Back in my high school gaming days, I had two monitors for my desktop. I had not been using both for a while so I put one in the cabinet. My dad built the walls of the "hallway" leading from the player to the screen. The power is located in the coin drop. Just flip the power switch and everything will turn on.
@@ -79,6 +83,8 @@ Finally, for security, I use a variety of tubular locks: 1 for the coin slot (ac
 | Mounted amp | Power strip in coin drop |
 
 ## Software
+
+I will do my best to completely fill out this section, but since I am writing this a year later, I am certain I will miss things.
 
 ### IPAC configuration
 
