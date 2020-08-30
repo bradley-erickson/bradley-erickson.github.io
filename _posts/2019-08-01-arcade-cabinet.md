@@ -102,15 +102,23 @@ For the operating system, I installed [RetroPie](https://retropie.org.uk/). Retr
 
 ### Setting controls
 
-To set the controls up inside RetroPie, we need to access the configuration files. When you start-up Retro Pie for the first time, it will ask you to configure whatever "controller" you have plugged in. I found it easier to lazily go through this and update them directly in the configuration file. To access the configuration file, **ADD SOMETHING HERE**. Retro Pie has a 3-tier hierarchy of controls: Global, System specific, and ROM specific. [This piece](https://retropie.org.uk/docs/RetroArch-Configuration/#hardcoded-configurations) of the Retro Pie documentation goes into where the configurations are located and how they look.
+To set the controls up inside RetroPie, we need to access the configuration files. When you start-up Retro Pie for the first time, it will ask you to configure whatever "controller" you have plugged in. I found it easier to lazily go through this and update them directly in the configuration file. Retro Pie has a 3-tier hierarchy of controls: Global, System specific, and ROM specific. [This piece](https://retropie.org.uk/docs/RetroArch-Configuration/#hardcoded-configurations) of the Retro Pie documentation goes into where the configurations are located and how they look.
 
-**Note:** The N64 uses a different emulating system than most. I found that I was unable to remap the Start, Load, and Exit buttons. Additionally, the N64 does not support button combinations such as *shift+R*. This is the reason I added the number pad and 3 additional buttons.
+**Note:** The N64 uses a different emulating system than most. First, the layout of the controller will depend on how you are holding it. With this in mind and the uneasy process of adjusting the configuration files between games, I decided to map the analog stick and the d-pad to the same joystick. This is fine for most games, but some will cause issue. I found that I was unable to remap the Start, Load, and Exit buttons. Additionally, the N64 does not support button combinations such as *shift+R*. This is the reason I added the number pad and 3 additional buttons.
 
 ### Adding games
 
 A flash drive is needed to add games. Simply plug in the flash drive to the system and boot it up. Then, boot the system down and unplug the flash drive. This formats the flash drive to have the correct directories for automatically adding games. To download emulators, check out [Cool ROM](https://coolrom.com.au/emulators/) or [Emulator.Games](https://emulator.games/). Since I am using a Raspberry Pi, the memory is limited. That means N64 games are about the max graphics it can handle. Just download the emulator zip files and place the zips inside their respective console folder on the flash drive. Lucky for you, most games made during the N64 era and prior are super small in terms of file size. Plug the flash drive back into the Raspberry Pi and power up. This may take longer than a usual boot, because we are copying games over.
 
 **Note:** I had problems uploading N64 games at first. I fixed this by manually unzipping the file and placing the .z64 file in N64 directory.
+
+| Great games | Poor games |
+|:---:|:---:|
+| Super Smash Bros. 64 | Pokémon Snap = crashes when rendering photos took |
+| Tetris - Original Nintendo | 007 Golden Eye - the button mapping makes this game impossible |
+| Pokémon Stadium 1 & 2 - mini games only | Super Mario 64 - impossible to do without an analog stick |
+| Street of Rage - Sega | |
+*Notice that the poor games all have to do with the N64.
 
 ### Music
 
@@ -124,3 +132,11 @@ The Emulation Station is the main screen where you choose what games to play fro
 * Halo - Theme
 
 ## Test ride
+
+Checkout the test ride video here:
+
+[![Test ride video](/images/arcade/controls_assembled.jpg)](https://bradley-erickson.github.io)
+
+**Note:** Some games will crash from being too tough on the memory. These are typically from graphically intense game moments, but sometimes can feel random.
+
+I spent about a weeknight or a full Saturday each week on this during summer 2019. I have a few improvements to make, but I am in no rush to make them. I find The Hive to be a wonderful thing to randomly do at random points during the day.
