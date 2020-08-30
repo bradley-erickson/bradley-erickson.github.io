@@ -116,9 +116,9 @@ A flash drive is needed to add games. Simply plug in the flash drive to the syst
 |:---:|:---:|
 | Super Smash Bros. 64 | Pokémon Snap = crashes when rendering photos took |
 | Tetris - Original Nintendo | 007 Golden Eye - the button mapping makes this game impossible |
-| Pokémon Stadium 1 & 2 - mini games only | Super Mario 64 - impossible to do without an analog stick |
-| Street of Rage - Sega | |
-*Notice that the poor games all have to do with the N64.
+| Street of Rage - Sega | Super Mario 64 - impossible to do without an analog stick |
+
+*Notice the poor games are all from the N64
 
 ### Music
 
@@ -133,7 +133,7 @@ The Emulation Station is the main screen where you choose what games to play fro
 
 ## Test ride
 
-Checkout the test ride video here:
+Checkout out the test ride video by clicking on the picture below:
 
 [![Test ride video](/images/arcade/controls_assembled.jpg)](https://bradley-erickson.github.io)
 
