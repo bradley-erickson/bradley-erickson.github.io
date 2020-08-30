@@ -118,7 +118,7 @@ A flash drive is needed to add games. Simply plug in the flash drive to the syst
 | Tetris - Original Nintendo | 007 Golden Eye - the button mapping makes this game impossible |
 | Street of Rage - Sega | Super Mario 64 - impossible to do without an analog stick |
 
-*Notice the poor games are all from the N64
+**Note:** Some games will crash from being too tough on the memory. These are typically from graphically intense game moments, but sometimes can feel random.
 
 ### Music
 
@@ -131,12 +131,4 @@ The Emulation Station is the main screen where you choose what games to play fro
 * Legend of Zelda - Theme
 * Halo - Theme
 
-## Test ride
-
-Checkout out the test ride video by clicking on the picture below:
-
-[![Test ride video](/images/arcade/controls_assembled.jpg)](https://bradley-erickson.github.io)
-
-**Note:** Some games will crash from being too tough on the memory. These are typically from graphically intense game moments, but sometimes can feel random.
-
-I spent about a weeknight or a full Saturday each week on this during summer 2019. I have a few improvements to make, but I am in no rush to make them. I find The Hive to be a wonderful thing to randomly do at random points during the day.
+I spent about a weeknight or a full Saturday each week on this during summer 2019. I have a few improvements to make and I would like to make a video showcasing the cabinet. I find The Hive to be a wonderful thing to randomly do at random points during the day.

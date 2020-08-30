@@ -10,12 +10,20 @@ tags:
   - Principle Component Analysis
   - Market Basket Analysis 
 ---
-I take a crack at visualizing important decklist features in the Pokémon Trading Card Game.
+I take a crack at explaining and visualizing important decklist features in the Pokémon Trading Card Game.
 
 ## Introduction
 
-Hello everyone! My name is Brad Erickson and I have been a fan of Pokémon for as long as I can remember. I have been playing the trading card game since Diamond and Pearl’s release in 2007. I had a good run my last year of the Senior division during the 2011-2012 season, just missing my invite by a few spots. In my career in the Master’s division, I’ve top 16’d Madison regionals and won a handful of League Cups. Outside of my passion for Pokémon, I recently began my pursuing my PhD in Computer Science, with a focus on Data Analytics.
-Today, I will try to use my analytical toolset and apply it to the competitive Pokémon TCG scene. With these tools, I will be looking at what differentiates decklists of a single archetype and what cards are commonly found together. The tools may point of obvious observations, such as Jirachi and Escape Board being paired together, luckily, we have some more interesting findings.
+Hello everyone! My name is Brad Erickson and I have been a fan of Pokémon for as long as I can remember. I have been playing the trading card game since Diamond and Pearl’s release in 2007. I had a good run my last year of the Senior division during the 2011-2012 season, just missing my invite by a few spots. In my career in the Master’s division, I’ve top 16’d Madison regionals and won a handful of League Cups. Outside of my passion for Pokémon, I recently began my pursuing my PhD in Computer Science, with a focus on machine learning and analytics.
+Today, I will try to use my analytical toolset and apply it to the competitive Pokémon TCG scene. With these tools, I will be looking at what differentiates decklists of a single archetype and what cards are commonly found together. The tools may point out obvious observations, such as Jirachi and Escape Board being paired together, luckily, I have more interesting findings to talk about.
+
+## For non-Pokémon players
+
+The Pokémon Trading Card Game consists of 2 players playing 60 card decks. Every 3 months, a new set of cards are released and thus change how decks are built. The following is a set of common vocabulary:
+
+* Format: Set of card sets players are allowed to use.
+* Archetype: Primary cards used in deck.
+* Top X: Prize payout is determined by how well a player places. If a player places 12th, they placed in Top 16.
 
 ## Data
 
