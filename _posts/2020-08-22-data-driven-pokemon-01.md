@@ -80,9 +80,12 @@ Additionally, we can look at how Rebel Clash changed the format. We see that mos
 Future work: PikaRom over multiple formats.
 
 Our deck basket will help us understand common cards and relationships within decks.
-Core must-haves: Dedenne-GX, Quick Ball, Electropower, Lightning Energy, Pikachu & Zekrom Tag Team, Tapu Koko Prism, and Boss’s Orders
-Big contenders: Switch, Raichu & Alolan Raichu Tag Team, Thunder Mountain, Speed Energy, Reset Stamp, Boltund V, Energy Switch, Zeraora-GX, Electromagnetic Rader, and Professor’s Research
-Common Techs: Big Charm, Great Catcher, Stadium-bump Marshadow, and Mallow & Lana
+
+**Core must-haves:** Dedenne-GX, Quick Ball, Electropower, Lightning Energy, Pikachu & Zekrom Tag Team, Tapu Koko Prism, and Boss’s Orders
+
+**Big contenders:** Switch, Raichu & Alolan Raichu Tag Team, Thunder Mountain, Speed Energy, Reset Stamp, Boltund V, Energy Switch, Zeraora-GX, Electromagnetic Rader, and Professor’s Research
+
+**Common Techs:** Big Charm, Great Catcher, Stadium-bump Marshadow, and Mallow & Lana
 
 ![PikaRom card frequency](/images/pokemon01/pikarom_card_frequency.png)
 
@@ -100,9 +103,11 @@ Whether a player plays an Acro Bike engine or not, helps decide what other cards
 
 ![Zacian PCA biplot UPR-RCL](/images/pokemon01/zacian_pca_biplot.png)
 
-Core must-haves: Marnie, Metal Energy, Metal Saucer, Oranguru, Professor’s Research, Quick Ball, Switch, and Zacian V
-Big contenders: Dedenne-GX, Escape Board, Great Catcher, Jirachi, Boss’s Orders, Scoop Up Net, Jirachi Prism, Mr. Mime, and Tool Scrapper
-Common Techs: Tapu Fini and Dusk-Mane Necrozma
+**Core must-haves:** Marnie, Metal Energy, Metal Saucer, Oranguru, Professor’s Research, Quick Ball, Switch, and Zacian V
+
+**Big contenders:** Dedenne-GX, Escape Board, Great Catcher, Jirachi, Boss’s Orders, Scoop Up Net, Jirachi Prism, Mr. Mime, and Tool Scrapper
+
+**Common Techs:** Tapu Fini and Dusk-Mane Necrozma
 
 ![Zacian card frequency](/images/pokemon01/zacian_card_frequency.png)
 
@@ -122,9 +127,11 @@ For Dragapult, it is worth looking at how decks stacked up based on placement. T
 
 ![Dragapult PCA biplot UPR-RCL](/images/pokemon01/dragapult_pca_biplot_groups.png)
 
-Core must-haves: Quick Ball, Switch, Psychic Energy, Mysterious Treasure, Boss’s Orders, Dragapult V, and Dragapult VMAX
-Big contenders: Professor’s Research, Horror Energy, Dedenne-GX, Jirachi, Marnie, Escape Board, Scoop Up Net, and Galarian Zigzagoon
-Common Techs: Reset Stamp, Phione, Bench Barrier Mew, and Scoop Up Block Mr. Mime
+**Core must-haves:** Quick Ball, Switch, Psychic Energy, Mysterious Treasure, Boss’s Orders, Dragapult V, and Dragapult VMAX
+
+**Big contenders:** Professor’s Research, Horror Energy, Dedenne-GX, Jirachi, Marnie, Escape Board, Scoop Up Net, and Galarian Zigzagoon
+
+**Common Techs:** Reset Stamp, Phione, Bench Barrier Mew, and Scoop Up Block Mr. Mime
 
 ![Dragapult card frequency](/images/pokemon01/dragapult_card_frequency.png)
 
@@ -140,9 +147,11 @@ The cards that contribute the most variance to Blacephalon are Scoop Up Net and 
 
 ![Blacephalon PCA biplot UPR-RCL](/images/pokemon01/blacephalon_pca_biplot.png)
 
-Core must-haves: Jirachi, Quick Ball, Switch, Fire Energy, Fiery Flint, Fire Crystal, Heat Factory, Welder, Oricorio-GX, Blacephalon, Cramorant V, and Energy Retrieval
-Big contenders: Dedenne-GX, Escape Board, Blacephalon-GX, Ultra Space, Ordinary Rod, Scoop Up Net, and Zacian V
-Common Techs: Mewtwo, Beast Bringer, and Great Catcher
+**Core must-haves:** Jirachi, Quick Ball, Switch, Fire Energy, Fiery Flint, Fire Crystal, Heat Factory, Welder, Oricorio-GX, Blacephalon, Cramorant V, and Energy Retrieval
+
+**Big contenders:** Dedenne-GX, Escape Board, Blacephalon-GX, Ultra Space, Ordinary Rod, Scoop Up Net, and Zacian V
+
+**Common Techs:** Mewtwo, Beast Bringer, and Great Catcher
 
 ![Blacephalon card frequency](/images/pokemon01/blacephalon_card_frequency.png)
 
@@ -165,9 +174,12 @@ I decided to include the biplot that includes all the Qualifiers. This shows how
 ![Zacian/ADP PCA biplot UPR-SWSH](/images/pokemon01/zacianADP_pca_biplot_overall.png)
 
 Going back to the UPR – RCL format.
-Core must-haves: ADP-GX, Dedenne-GX, Metal Energy, Metal Saucer, Professor’s Research, Quick Ball, Switch, Zacian V, and Boss’s Orders
-Big contenders: Water Energy, Marnie, Energy Spinner, Energy Switch, and Cherish Ball
-Common Techs: Great Catcher, Tool Scrapper, Chaotic Swell, and Galarian Zigzagoon
+
+**Core must-haves:** ADP-GX, Dedenne-GX, Metal Energy, Metal Saucer, Professor’s Research, Quick Ball, Switch, Zacian V, and Boss’s Orders
+
+**Big contenders:** Water Energy, Marnie, Energy Spinner, Energy Switch, and Cherish Ball
+
+**Common Techs:** Great Catcher, Tool Scrapper, Chaotic Swell, and Galarian Zigzagoon
 
 ![Zacian/ADP card frequency](/images/pokemon01/zacianADP_card_frequency.png)
 
