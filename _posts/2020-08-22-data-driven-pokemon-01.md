@@ -14,7 +14,7 @@ I take a crack at explaining and visualizing important decklist features in the 
 
 ## Introduction
 
-Hello everyone! My name is Brad Erickson and I have been a fan of Pokémon for as long as I can remember. I have been playing the trading card game since Diamond and Pearl’s release in 2007. I had a good run my last year of the Senior division during the 2011-2012 season, just missing my invite by a few spots. In my career in the Master’s division, I’ve top 16’d Madison regionals and won a handful of League Cups. Outside of my passion for Pokémon, I recently began my pursuing my PhD in Computer Science, with a focus on machine learning and analytics.
+Hello everyone! My name is Brad Erickson and I have been a fan of Pokémon for as long as I can remember. I have been playing the trading card game since Diamond and Pearl’s release in 2007. I had a good run my last year of the Senior division during the 2011-2012 season, just missing my invite by a few spots. In my Master’s division career, I’ve top 16’d Madison regionals and won a handful of League Cups. Outside of my passion for Pokémon, I recently began my pursuing my PhD in Computer Science, with a focus on machine learning and analytics.
 Today, I will try to use my analytical toolset and apply it to the competitive Pokémon TCG scene. With these tools, I will be looking at what differentiates decklists of a single archetype and what cards are commonly found together. The tools may point out obvious observations, such as Jirachi and Escape Board being paired together, luckily, I have more interesting findings to talk about.
 
 ## For non-Pokémon players
