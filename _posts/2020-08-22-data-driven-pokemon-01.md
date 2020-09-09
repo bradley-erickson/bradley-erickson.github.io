@@ -5,7 +5,7 @@ header:
   teaser: /images/pokemon_backs.jpg
 date: 2020-08-22
 permalink: /posts/2020/08/data-driven-pokemon-01/
-except: I take a crack at explaining and visualizing important decklist features in the Pokémon Trading Card Game.
+excerpt: I take a crack at explaining and visualizing important decklist features in the Pokémon Trading Card Game.
 tags:
   - Pokémon
   - data science
