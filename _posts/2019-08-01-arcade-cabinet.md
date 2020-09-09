@@ -1,17 +1,15 @@
 ---
-title: 'Refurbishing an old arcade cabinet'
+title: Refurbishing an old arcade cabinet
 header:
-  teaser: '/images/arcade/outside_final02.jpg'
+  teaser: /images/arcade/outside_final02.jpg
 date: 2019-08-01
 permalink: /posts/2019/08/arcade-cabinet/
-excerpt: 'In the summer of 2019, I spent time refurbishing an old arcade cabinet. I will be updating this periodically with how I did it!'
+excerpt: In the summer of 2019, I spent time refurbishing an old arcade cabinet. Here's how
 tags:
   - arcade
   - raspberry pi
   - hardware
 ---
-
-In the summer of 2019, I spent time refurbishing an old arcade cabinet. Here's how:
 
 ## Introduction
 
