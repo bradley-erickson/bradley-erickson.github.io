@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Data Driven Pokémon - Episode 1"
+header:
+  teaser: '/images/pokemon_backs.jpg'
 date: 2020-08-22
 permalink: /posts/2020/08/data-driven-pokemon-01/
 tags:
