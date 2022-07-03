@@ -4,7 +4,7 @@ html:
 	wget -r http://127.0.0.1:8050/
 	wget -r http://127.0.0.1:8050/_dash-layout
 	wget -r http://127.0.0.1:8050/_dash-dependencies
-	mv 127.0.0.1+8050 build
+	mv 127.0.0.1:8050 build
 	sed -i 's/_dash-layout/_dash-layout.json/g' build/_dash-component-suites/dash/dash-renderer/build/*.js
 	sed -i 's/_dash-dependencies/_dash-dependencies.json/g' build/_dash-component-suites/dash/dash-renderer/build/*.js
 	mv build/_dash-layout build/_dash-layout.json	
