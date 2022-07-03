@@ -1,2 +1,2 @@
 # dash-static-site
- Static dash site
+Static dash site
