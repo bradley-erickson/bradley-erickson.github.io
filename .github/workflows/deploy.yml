@@ -43,7 +43,9 @@ jobs:
           make clean
           make html
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          folder: build
+          external_repository:  bradley-erickson/bradley-erickson.github.io
+          publish_branch: master
+          publish_dir: ./build
