@@ -1,0 +1,33 @@
+[
+  {
+    "clientside_function": null, 
+    "inputs": [
+      {
+        "id": "_pages_location", 
+        "property": "pathname"
+      }, 
+      {
+        "id": "_pages_location", 
+        "property": "search"
+      }
+    ], 
+    "output": ".._pages_content.children..._pages_store.data..", 
+    "prevent_initial_call": true, 
+    "state": []
+  }, 
+  {
+    "clientside_function": {
+      "function_name": "children", 
+      "namespace": "_dashprivate__pages_dummy"
+    }, 
+    "inputs": [
+      {
+        "id": "_pages_store", 
+        "property": "data"
+      }
+    ], 
+    "output": "_pages_dummy.children", 
+    "prevent_initial_call": false, 
+    "state": []
+  }
+]
