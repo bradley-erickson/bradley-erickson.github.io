@@ -1,10 +1,10 @@
 html:
 	export DEBUG=False && cd src && python3 app.py &
-	sleep 60
+	sleep 30
 	wget -r http://127.0.0.1:8050/
 	wget -r http://127.0.0.1:8050/_dash-layout
 	wget -r http://127.0.0.1:8050/_dash-dependencies
-	ls -al
+	ls -al 127.0.0.1:8050
 	sed -i 's/_dash-layout/_dash-layout.json/g' 127.0.0.1:8050/_dash-component-suites/dash_renderer/*.js
 	sed -i 's/_dash-dependencies/_dash-dependencies.json/g' 127.0.0.1:8050/_dash-component-suites/dash_renderer/*.js
 	mv 127.0.0.1:8050/_dash-layout 127.0.0.1:8050/_dash-layout.json	
