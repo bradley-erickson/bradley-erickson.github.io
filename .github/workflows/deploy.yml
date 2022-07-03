@@ -40,10 +40,10 @@ jobs:
       - name: Build static page
         shell: bash
         run: |
-            make clean
-            make html
+          make clean
+          make html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: http://127.0.0.1:8050
+          folder: build
