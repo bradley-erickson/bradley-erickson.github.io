@@ -1,6 +1,6 @@
 # package imports
 import dash
-from dash import html
+from dash import html, dcc, clientside_callback, Output, Input
 import dash_bootstrap_components as dbc
 
 
@@ -10,7 +10,6 @@ dbc_css = (
 
 app = dash.Dash(
     __name__,
-    use_pages=True,
     external_stylesheets=[
         dbc.themes.MINTY,
         dbc.icons.FONT_AWESOME,
@@ -20,45 +19,33 @@ app = dash.Dash(
     suppress_callback_exceptions=True
 )
 
-def serve_layout():
+app.layout = html.Div([
+    dcc.Location(id='url', refresh=False),
+    dcc.Link('Navigate to "/"', href='/'),
+    html.Br(),
+    dcc.Link('Navigate to "/page1"', href='/page1'),
+    html.Div(id='page-content')
+])
 
-    navitems = [
-        dbc.NavItem(
-            dbc.NavLink(
-                page['name'],
-                href=page['path'],
-                class_name='text-light'
-            )
-        ) for page in dash.page_registry.values()
-        if page['module'] != 'pages.not_found_404'
-    ]
-    navitems.insert(
-        0,
-        dbc.NavbarBrand(
-            'Static Site',
-            href='/'
-        )
-    )
+page_1 = html.H1('Page 1').to_plotly_json()
+home = html.H1('home').to_plotly_json()
 
-    return html.Div(
-        [
-            dbc.Navbar(
-                dbc.Container(
-                    navitems
-                ),
-                sticky='fixed',
-                color='primary',
-                dark=True
-            ),
-            dbc.Container(
-                dash.page_container,
-                class_name='my-2'
-            )
-        ],
-        className='dbc'
-    )
-
-app.layout = serve_layout
+clientside_callback(
+    f"""
+    function(path) {{
+        switch (path) {{
+            case "/page1":
+                child = {page_1};
+                break;
+            default:
+                child = {home};
+        }}
+        return child
+    }}
+    """,
+    Output('page-content', 'children'),
+    Input('url', 'pathname')
+)
 
 if __name__ == '__main__':
     app.run_server(debug=False)
