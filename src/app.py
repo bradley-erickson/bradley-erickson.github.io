@@ -10,7 +10,7 @@ dbc_css = (
 
 app = dash.Dash(
     __name__,
-    use_pages=True,
+    # use_pages=True,
     external_stylesheets=[
         dbc.themes.MINTY,
         dbc.icons.FONT_AWESOME,
@@ -51,7 +51,8 @@ def serve_layout():
                 dark=True
             ),
             dbc.Container(
-                dash.page_container,
+                # dash.page_container,
+                'bruh',
                 class_name='my-2'
             )
         ],
