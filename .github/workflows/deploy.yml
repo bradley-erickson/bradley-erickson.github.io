@@ -51,7 +51,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.DEPLOY_KEY }}
-          external_repository:  bradley-erickson/bradley-erickson.github.io
-          publish_branch: master
+          deploy_key: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
