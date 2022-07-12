@@ -1,6 +1,6 @@
 html:
 	export DEBUG=False && cd src && python3 app.py &
-	sleep 10
+	sleep 30
 	wget -r http://127.0.0.1:8050/
 	wget -r http://127.0.0.1:8050/_dash-layout
 	wget -r http://127.0.0.1:8050/_dash-dependencies
