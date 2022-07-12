@@ -9,6 +9,7 @@ html:
 	sed -i 's/_dash-dependencies/_dash-dependencies.json/g' build/_dash-component-suites/dash/dash-renderer/build/*.js
 	mv build/_dash-layout build/_dash-layout.json
 	mv build/_dash-dependencies build/_dash-dependencies.json
+	cp assets/* build/assets/
 	ps | grep python | awk '{print $$1}' | xargs kill -9
 
 clean:

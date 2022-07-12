@@ -1,10 +1,8 @@
 from dash import html
 
-import dash
-
-dash.register_page(
-    __name__,
-    path='/'
-)
-
 layout = html.H1('Home')
+page = {
+    'path': '/',
+    'layout': layout,
+    'name': 'Home'
+}

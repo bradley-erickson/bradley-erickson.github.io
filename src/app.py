@@ -3,6 +3,9 @@ import dash
 from dash import html, dcc, clientside_callback, Output, Input
 import dash_bootstrap_components as dbc
 
+# local imports
+from pages import pages
+
 
 dbc_css = (
     "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates@V1.0.1/dbc.min.css"
@@ -19,26 +22,52 @@ app = dash.Dash(
     suppress_callback_exceptions=True
 )
 
+navbar = dbc.NavbarSimple(
+    dbc.Container(
+        [
+            dbc.NavItem(
+                dbc.NavLink(page['name'], href=page['path']),
+                class_name='d-inline-block'
+            ) for page in pages
+        ]
+    ),
+    brand='Static Site',
+    brand_href='/',
+    color='primary',
+    dark=True
+)
+
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
-    dcc.Link('Navigate to "/"', href='/'),
-    html.Br(),
-    dcc.Link('Navigate to "/page1"', href='/page1'),
-    html.Div(id='page-content')
+    navbar,
+    dbc.Container(id='page-content'),
 ])
 
-page_1 = html.H1('Page 1').to_plotly_json()
-home = html.H1('home').to_plotly_json()
+
+not_found = html.Div(
+    [
+        html.H1('Page not found'),
+        html.A(
+            'Return home',
+            href='/'
+        )
+    ]
+).to_plotly_json()
+
+page_layouts = ''.join(
+    [
+        f'case "{page["path"]}":child={page["layout"].to_plotly_json()};break;'
+        for page in pages
+    ]
+)
 
 clientside_callback(
     f"""
     function(path) {{
         switch (path) {{
-            case "/page1":
-                child = {page_1};
-                break;
+            {page_layouts}
             default:
-                child = {home};
+                child = {not_found};
         }}
         return child
     }}
