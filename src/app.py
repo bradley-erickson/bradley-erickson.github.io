@@ -28,7 +28,7 @@ navbar = dbc.NavbarSimple(
             dbc.NavItem(
                 dbc.NavLink(page['name'], href=page['path']),
                 class_name='d-inline-block'
-            ) for page in pages
+            ) for page in pages if len(page['path'].split('/')) < 3
         ]
     ),
     brand='Static Site',
