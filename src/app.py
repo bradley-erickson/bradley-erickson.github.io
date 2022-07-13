@@ -2,9 +2,11 @@
 import dash
 from dash import html, dcc, clientside_callback, Output, Input
 import dash_bootstrap_components as dbc
+import json
 
 # local imports
 from pages import pages
+from utils.page_converter import convert_layout
 
 
 dbc_css = (
@@ -52,11 +54,11 @@ not_found = html.Div(
             href='/'
         )
     ]
-).to_plotly_json()
+)
 
 page_layouts = ''.join(
     [
-        f'case "{page["path"]}":child={page["layout"].to_plotly_json()};break;'
+        f'case "{page["path"]}":child={json.dumps(convert_layout(page["layout"]))};break;'
         for page in pages
     ]
 )
@@ -67,7 +69,7 @@ clientside_callback(
         switch (path) {{
             {page_layouts}
             default:
-                child = {not_found};
+                child = {json.dumps(convert_layout(not_found))};
         }}
         return child
     }}
