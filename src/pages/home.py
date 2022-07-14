@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 
 layout = dbc.Card(
     [
-        html.H1('Home'),
+        html.H2('Home'),
         html.P('This is a home page')
     ],
     body=True,

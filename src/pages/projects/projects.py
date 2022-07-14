@@ -8,11 +8,11 @@ import platform
 
 # set file location
 cwd = os.getcwd()
-file_path_in = os.path.join(cwd, 'pages', 'publications', 'papers')
+file_path_in = os.path.join(cwd, 'pages', 'projects', 'project_descriptions')
 date_format = '%B %#d, %G' if platform.system() == 'Windows' else '%B %-d, %G'
 
 
-def create_publication_listing(pub):
+def create_project_listing(pub):
     date_str = pub.get('date').strftime(date_format)
     card = dbc.Card(
         [
@@ -32,12 +32,12 @@ def create_publication_listing(pub):
     return card
 
 
-publications = []
-publication_names = os.listdir(file_path_in)
-publication_names.reverse()  # reverse the list so the article show up properly
+projects = []
+project_names = os.listdir(file_path_in)
+project_names.reverse()  # reverse the list so the article show up properly
 year = None
 
-for pub_name in publication_names:
+for pub_name in project_names:
     # read in contents of a given article
     pub_path = os.path.join(file_path_in, pub_name)
     with open(pub_path, 'r', encoding='utf-8') as f:
@@ -51,26 +51,26 @@ for pub_name in publication_names:
 
     if publish_date.year != year:
         if year:
-            publications.pop()
+            projects.pop()
         year = publish_date.year
-        publications.append(html.H3(year))
+        projects.append(html.H3(year))
 
-    publications.append(create_publication_listing(pub))
-    publications.append(html.Hr())
-publications.pop()
+    projects.append(create_project_listing(pub))
+    projects.append(html.Hr())
+projects.pop()
 
 layout = dbc.Card(
     [
-        html.H2('Publications'),
+        html.H2('Projects'),
         html.Div(
-            publications
+            projects
         )
     ],
     body=True,
     class_name='border-0'
 )
 
-publications_tab = dbc.Tab(
+projects_tab = dbc.Tab(
     layout,
-    label='Publications'
+    label='Projects'
 )

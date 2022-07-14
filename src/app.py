@@ -4,8 +4,8 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 # local imports
-from pages import home, publications
-from components.navbar import navbar
+from pages import home, publications, education, projects
+from components import navbar, sidebar
 
 
 dbc_css = (
@@ -19,7 +19,7 @@ app = dash.Dash(
         dbc.icons.FONT_AWESOME,
         dbc_css
     ],
-    title='Static Site',
+    title='Bradley Erickson',
     suppress_callback_exceptions=True
 )
 
@@ -29,16 +29,16 @@ app.layout = html.Div([
         dbc.Row(
             [
                 dbc.Col(
-                    [
-                        'Image and socials here'
-                    ],
+                    sidebar,
                     md=3
                 ),
                 dbc.Col(
                     dbc.Tabs(
                         [
                             home.home_tab,
-                            publications.publications_tab
+                            publications.publications_tab,
+                            education.education_tab,
+                            projects.projects_tab
                         ],
                         class_name='my-3'
                     ),
