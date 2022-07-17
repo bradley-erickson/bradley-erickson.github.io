@@ -1,16 +1,19 @@
 # package imports
 from dash import html
 import dash_bootstrap_components as dbc
-from datetime import date
 import os
-import frontmatter
+import pandas as pd
 import platform
 
 # set file location
 cwd = os.getcwd()
-file_path_in = os.path.join(cwd, 'pages', 'publications', 'papers')
+file_path_in = os.path.join(cwd, 'pages', 'publications', 'papers.csv')
+df = pd.read_csv(
+    file_path_in,
+    parse_dates=['date']
+)
 date_format = '%B %#d, %G' if platform.system() == 'Windows' else '%B %-d, %G'
-
+df.sort_values('date', ascending=False, inplace=True)
 
 def create_publication_listing(pub):
     date_str = pub.get('date').strftime(date_format)
@@ -31,24 +34,11 @@ def create_publication_listing(pub):
     )
     return card
 
-
 publications = []
-publication_names = os.listdir(file_path_in)
-publication_names.reverse()  # reverse the list so the article show up properly
 year = None
-
-for pub_name in publication_names:
-    # read in contents of a given article
-    pub_path = os.path.join(file_path_in, pub_name)
-    with open(pub_path, 'r', encoding='utf-8') as f:
-        pub = frontmatter.load(f)
+for _, pub in df.iterrows():
 
     publish_date = pub.get('date')
-
-    # skip articles that aren't published yet or are the sample files
-    if publish_date > date.today() or pub_name.startswith('sample'):
-        continue
-
     if publish_date.year != year:
         if year:
             publications.pop()
