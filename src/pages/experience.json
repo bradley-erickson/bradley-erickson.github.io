@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Research Assistant - Writing Observer",
+        "company": "North Carolina State University",
+        "description": "Help manage and create a teacher dashboard for understanding the formative student writing process.",
+        "start_date": "1/1/2022",
+        "end_date": "",
+        "location": "Raleigh, NC"
+    },
+    {
+        "title": "Research Assistant - Jenkins Data Miner",
+        "company": "North Carolina State University",
+        "description": "Created a package of scripts for mining student submission data in an early Computer Science course.",
+        "start_date": "5/1/2021",
+        "end_date": "8/15/2021",
+        "location": "Raleigh, NC"
+    },
+    {
+        "title": "Teaching Assistant",
+        "company": "North Carolina State University",
+        "description": "Held offices hours and support sessions to help guide student learning.",
+        "start_date": "8/1/2020",
+        "end_date": "12/31/2021",
+        "location": "Raleigh, NC"
+    },
+    {
+        "title": "Software Engineering Intern",
+        "company": "Digi International",
+        "description": "Worked on a team of engineers developing the front end management portal for Digi Internet of Things products",
+        "start_date": "5/1/2019",
+        "end_date": "8/30/2019",
+        "location": "Rochester, MN"
+    },
+    {
+        "title": "Software Tester and Developer",
+        "company": "Winona State University",
+        "description": "Test and develop software in a student team for a client, Digi International.",
+        "start_date": "11/1/2017",
+        "end_date": "5/31/2020",
+        "location": "Winona, MN"
+    },
+    {
+        "title": "Peer Tutor",
+        "company": "Winona State University",
+        "description": "Tutor students in computer science topics, both in individual and group settings. Help inform students of tools and resources to enhance their educational experience.",
+        "start_date": "8/1/2018",
+        "end_date": "5/31/2020",
+        "location": "Winona, MN"
+    },
+    {
+        "title": "Tier 1 & Dispatch Technician",
+        "company": "VCS Technologies",
+        "description": "Provided technical support and ensured infrastructured functioned properly for a variety of small business clients.",
+        "start_date": "9/1/2016",
+        "end_date": "8/1/2018",
+        "location": "Winona, MN"
+    }
+]

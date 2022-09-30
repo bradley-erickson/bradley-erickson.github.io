@@ -4,7 +4,7 @@ from dash import html, clientside_callback, Output, Input
 import dash_bootstrap_components as dbc
 
 # local imports
-from pages import home, publications, education, projects
+from pages import home, publications, education, projects, experience
 from components import navbar, sidebar
 
 
@@ -37,6 +37,7 @@ app.layout = html.Div(
                     dbc.Col(
                         [
                             home.layout,
+                            experience.layout,
                             publications.layout,
                             education.layout,
                             projects.layout
@@ -53,15 +54,17 @@ app.layout = html.Div(
 clientside_callback(
     """
     function(hash) {
-        let a = Array(4).fill('d-none');
+        let a = Array(5).fill('d-none');
         const class_name = 'section-card';
         console.log(a);
-        if (hash === '#publications') {
+        if (hash === '#experience') {
             a[1] = class_name;
-        } else if (hash === '#education') {
+        } else if (hash === '#publications') {
             a[2] = class_name;
-        } else if (hash === '#projects') {
+        } else if (hash === '#education') {
             a[3] = class_name;
+        } else if (hash === '#projects') {
+            a[4] = class_name;
         } else {
             a[0] = class_name;
         }
@@ -71,6 +74,7 @@ clientside_callback(
     }
     """,
     Output(home.id, 'class_name'),
+    Output(experience.id, 'class_name'),
     Output(publications.id, 'class_name'),
     Output(education.id, 'class_name'),
     Output(projects.id, 'class_name'),
@@ -78,4 +82,4 @@ clientside_callback(
 )
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)

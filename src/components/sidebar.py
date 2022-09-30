@@ -6,13 +6,12 @@ import os
 # local imports
 from .navbar import links
 
-pic_path = os.path.join('assets', 'woods.png')
+pic_path = os.path.join('assets', 'me.png')
 
 sidebar = dbc.Card(
     [
-        html.Img(
+        dbc.CardImg(
             src=f'{pic_path}',
-            className='w-100'
         ),
         html.P(
             'This is a short bio about me, maybe?'

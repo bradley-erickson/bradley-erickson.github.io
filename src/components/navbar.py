@@ -6,6 +6,7 @@ from dash_bootstrap_templates import ThemeSwitchAIO
 links = html.Span(
     [
         dbc.NavLink('Home', href='/'),
+        dbc.NavLink('Experience', href='#experience'),
         dbc.NavLink('Publications', href='#publications'),
         dbc.NavLink('Education', href='#education'),
         dbc.NavLink('Projects', href='#projects')
