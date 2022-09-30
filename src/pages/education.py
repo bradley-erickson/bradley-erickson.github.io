@@ -38,8 +38,3 @@ layout = dbc.Card(
     body=True,
     class_name='border-0'
 )
-
-education_tab = dbc.Tab(
-    layout,
-    label='Education'
-)

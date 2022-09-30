@@ -7,7 +7,7 @@ import pandas as pd
 
 # set file location
 cwd = os.getcwd()
-file_path_in = os.path.join(cwd, 'pages', 'projects', 'projects.csv')
+file_path_in = os.path.join(cwd, 'pages', 'projects.csv')
 df = pd.read_csv(file_path_in)
 df.sort_values(['end_year', 'start_year'], ascending=False, inplace=True, na_position='first')
 
@@ -64,9 +64,4 @@ layout = dbc.Card(
     ],
     body=True,
     class_name='border-0'
-)
-
-projects_tab = dbc.Tab(
-    layout,
-    label='Projects'
 )

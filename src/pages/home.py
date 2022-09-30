@@ -10,8 +10,3 @@ layout = dbc.Card(
     body=True,
     class_name='border-0'
 )
-
-home_tab = dbc.Tab(
-    layout,
-    label='Home'
-)

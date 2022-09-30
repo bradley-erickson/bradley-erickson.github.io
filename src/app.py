@@ -33,15 +33,12 @@ app.layout = html.Div([
                     md=3
                 ),
                 dbc.Col(
-                    dbc.Tabs(
-                        [
-                            home.home_tab,
-                            publications.publications_tab,
-                            education.education_tab,
-                            projects.projects_tab
-                        ],
-                        class_name='my-3'
-                    ),
+                    [
+                        home.layout,
+                        publications.layout,
+                        education.layout,
+                        projects.layout
+                    ],
                     md=9
                 )
             ]

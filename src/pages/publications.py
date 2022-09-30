@@ -7,7 +7,7 @@ import platform
 
 # set file location
 cwd = os.getcwd()
-file_path_in = os.path.join(cwd, 'pages', 'publications', 'papers.csv')
+file_path_in = os.path.join(cwd, 'pages', 'papers.csv')
 df = pd.read_csv(
     file_path_in,
     parse_dates=['date']
@@ -58,9 +58,4 @@ layout = dbc.Card(
     ],
     body=True,
     class_name='border-0'
-)
-
-publications_tab = dbc.Tab(
-    layout,
-    label='Publications'
 )

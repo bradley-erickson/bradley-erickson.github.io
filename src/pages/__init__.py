@@ -1,3 +1,1 @@
-from . import home, education
-from .publications import publications
-from .projects import projects
+from . import home, education, publications, projects
