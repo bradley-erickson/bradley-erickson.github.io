@@ -1,7 +1,10 @@
 # package imports
-from dash import html
+from dash import html, dcc
 import dash_bootstrap_components as dbc
 import os
+
+# local imports
+from .navbar import links
 
 pic_path = os.path.join('assets', 'woods.png')
 
@@ -14,6 +17,7 @@ sidebar = dbc.Card(
         html.P(
             'This is a short bio about me, maybe?'
         ),
+        html.Div(links, className='d-md-block d-none mb-3'),
         html.Div(
             [
                 html.I(className='fas fa-envelope me-2'),

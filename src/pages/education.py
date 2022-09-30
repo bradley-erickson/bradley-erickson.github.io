@@ -2,6 +2,7 @@
 from dash import html
 import dash_bootstrap_components as dbc
 
+id = 'education'
 layout = dbc.Card(
     [
         html.H2('Education'),
@@ -35,6 +36,6 @@ layout = dbc.Card(
             )
         )
     ],
+    id=id,
     body=True,
-    class_name='border-0'
 )

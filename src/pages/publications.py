@@ -49,6 +49,7 @@ for _, pub in df.iterrows():
     publications.append(html.Hr())
 publications.pop()
 
+id = 'publications'
 layout = dbc.Card(
     [
         html.H2('Publications'),
@@ -56,6 +57,6 @@ layout = dbc.Card(
             publications
         )
     ],
+    id=id,
     body=True,
-    class_name='border-0'
 )
