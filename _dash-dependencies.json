@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "clientside_function": {
+      "function_name": "children", 
+      "namespace": "_dashprivate_{'component': 'ThemeSwitchAIO', 'subcomponent': 'dummy_div', 'aio_id': <MATCH>}"
+    }, 
+    "inputs": [
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeSwitchAIO\",\"subcomponent\":\"switch\"}", 
+        "property": "value"
+      }, 
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeSwitchAIO\",\"subcomponent\":\"store\"}", 
+        "property": "data"
+      }
+    ], 
+    "output": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeSwitchAIO\",\"subcomponent\":\"dummy_div\"}.children", 
+    "prevent_initial_call": false, 
+    "state": []
+  }, 
+  {
+    "clientside_function": {
+      "function_name": "role", 
+      "namespace": "_dashprivate_{'component': 'ThemeSwitchAIO', 'subcomponent': 'dummy_div', 'aio_id': <MATCH>}"
+    }, 
+    "inputs": [
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeSwitchAIO\",\"subcomponent\":\"switch\"}", 
+        "property": "value"
+      }, 
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeSwitchAIO\",\"subcomponent\":\"store\"}", 
+        "property": "data"
+      }
+    ], 
+    "output": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeSwitchAIO\",\"subcomponent\":\"dummy_div\"}.role", 
+    "prevent_initial_call": false, 
+    "state": []
+  }, 
+  {
+    "clientside_function": null, 
+    "inputs": [
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"button\"}", 
+        "property": "n_clicks"
+      }
+    ], 
+    "output": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"offcanvas\"}.is_open", 
+    "prevent_initial_call": false, 
+    "state": [
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"offcanvas\"}", 
+        "property": "is_open"
+      }
+    ]
+  }, 
+  {
+    "clientside_function": {
+      "function_name": "key", 
+      "namespace": "_dashprivate_{'component': 'ThemeChangerAIO', 'subcomponent': 'dummy_div', 'aio_id': <MATCH>}"
+    }, 
+    "inputs": [
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"radio\"}", 
+        "property": "value"
+      }
+    ], 
+    "output": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"dummy_div\"}.key", 
+    "prevent_initial_call": false, 
+    "state": []
+  }, 
+  {
+    "clientside_function": {
+      "function_name": "role", 
+      "namespace": "_dashprivate_{'component': 'ThemeChangerAIO', 'subcomponent': 'dummy_div', 'aio_id': <MATCH>}"
+    }, 
+    "inputs": [
+      {
+        "id": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"dummy_div\"}", 
+        "property": "children"
+      }
+    ], 
+    "output": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"dummy_div\"}.role", 
+    "prevent_initial_call": false, 
+    "state": []
+  }
+]
