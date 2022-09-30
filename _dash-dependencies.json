@@ -83,5 +83,20 @@
     "output": "{\"aio_id\":[\"MATCH\"],\"component\":\"ThemeChangerAIO\",\"subcomponent\":\"dummy_div\"}.role", 
     "prevent_initial_call": false, 
     "state": []
+  }, 
+  {
+    "clientside_function": {
+      "function_name": "class_name", 
+      "namespace": "_dashprivate_home"
+    }, 
+    "inputs": [
+      {
+        "id": "location", 
+        "property": "hash"
+      }
+    ], 
+    "output": "..home.class_name...publications.class_name...education.class_name...projects.class_name..", 
+    "prevent_initial_call": false, 
+    "state": []
   }
 ]

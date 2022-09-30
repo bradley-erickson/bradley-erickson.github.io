@@ -1,0 +1,7 @@
+.section-card {
+    border: 0 !important;
+}
+
+.nav-link {
+    padding: 0 !important;
+}
