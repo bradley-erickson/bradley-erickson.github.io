@@ -6,34 +6,84 @@ id = 'education'
 layout = dbc.Card(
     [
         html.H2('Education'),
-        dbc.Table(
-            html.Tbody(
+        dbc.Card(
+            dbc.Row(
                 [
-                    html.Tr([html.Td(), html.Td()]),
-                    html.Tr(
+                    dbc.Col(
                         [
-                            html.Td('2020 - '),
-                            html.Td('PhD, Computer Science, North Carolina State University')
-                        ]
-                    ),
-                    html.Tr(
-                        [
-                            html.Td('2016 - 2020'),
-                            html.Td(
+                            html.H4('North Carolina State Univsersity'),
+                            html.Div(
                                 [
-                                    html.Strong('Winona State University'),
-                                    html.Br(),
-                                    'Bachelor of Science, Computer Science',
-                                    html.Br(),
-                                    'Bachelor of Science, Data Science',
-                                    html.Br(),
-                                    'Bachelor of Art, Mathematics'
-                                ]
+                                    html.Div('Anticipated Dec. 2022, Raleigh, NC'),
+                                    html.Div('GPA: 3.91/4.0'),
+                                    html.Strong('Masters of Computer Science'),
+                                ],
+                                className='ms-3'
                             )
-                        ]
+                        ],
+                        xs=8,
+                        sm=8,
+                        md=9,
+                        lg=10,
+                        xxl=10
+                    ),
+                    dbc.Col(
+                        dbc.CardImg(
+                            src='/assets/ncsu.png',
+                            class_name='img-fluid rounded-start'
+                        ),
+                        xs=4,
+                        sm=4,
+                        md=3,
+                        lg=2,
+                        xxl=2
                     )
                 ]
-            )
+            ),
+            class_name='border-0',
+            body=True
+        ),
+        html.Hr(),
+        dbc.Card(
+            dbc.Row(
+                [
+                    dbc.Col(
+                        [
+                            html.H4('Winona State Univserity'),
+                            html.Div(
+                                [
+                                    html.Div('Class of May 2020, Winona, MN'),
+                                    html.Strong('Bachelor of Science in Computer Science'),
+                                    html.Br(),
+                                    html.Strong('Bachelor of Science in Data Science'),
+                                    html.Br(),
+                                    html.Strong('Bachelor of Arts in Mathematics'),
+                                    html.Div('Minor in Statistics')
+                                ],
+                                className='ms-3'
+                            )
+                        ],
+                        xs=8,
+                        sm=8,
+                        md=9,
+                        lg=10,
+                        xxl=10
+                    ),
+                    dbc.Col(
+                        dbc.CardImg(
+                            src='/assets/wsu.png',
+                            class_name='img-fluid rounded-start'
+                        ),
+                        xs=4,
+                        sm=4,
+                        md=3,
+                        lg=2,
+                        xxl=2
+                    )
+                ]
+            ),
+            class_name='border-0',
+            body=True
         )
     ],
     id=id,

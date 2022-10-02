@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Trainer Hill - Front End",
+        "description": "Providing analytic reporting tools for the Pokemon Trading Card Game community.",
+        "start_date": 2020,
+        "link": "https://www.trainerhill.com/",
+        "tags": ["dash", "analytics", "plotly", "pandas", "bootstrap", "python"]
+    },
+    {
+        "title": "Trainer Hill - Back End",
+        "description": "Created REST API with authentication to act as liaison between the database and frontend.",
+        "start_date": 2021,
+        "tags": ["flask", "postgresql", "mongodb", "digital ocean", "python", "documentation"]
+    },
+    {
+        "title": "Trainer Hill - Data Science",
+        "description": "Researching different aspects of trading card games such as card text or simulation events.",
+        "start_date": 2020,
+        "link": "https://www.trainerhill.com/blog",
+        "tags": ["simulation", "analytics", "pandas", "machine learning", "nlp"]
+    },
+    {
+        "title": "Personal Website",
+        "description": "Implemented a static Dash application and set up CI pipeline for deployment",
+        "start_date": 2022,
+        "end_date": 2022,
+        "tags": ["dash", "bootstrap", "ci/cd"]
+    },
+    {
+        "title": "Dash App Structure",
+        "description": "Created template for structuring large Dash applications that follows best practices.",
+        "start_date": 2022,
+        "end_date": 2022,
+        "link": "https://github.com/bradley-erickson/dash-app-structure",
+        "tags": ["dash", "best practices", "docker"]
+    },
+    {
+        "title": "Open Source work",
+        "description": "Implemented the meta header information for sharing sites built with Dash Pages.",
+        "start_date": 2022,
+        "end_date": 2022,
+        "tags": ["dash", "python"]
+    },
+    {
+        "title": "Splendor Board Game Box",
+        "description": "Customized storage box for holding the contents of the board game Splendor",
+        "start_date": 2020,
+        "end_date": 2020,
+        "tags": ["3d-modeling", "3d-printing", "wood burning"]
+    },
+    {
+        "title": "The Hive",
+        "description": "Refurbished an old arcade cabinet to a complete emulation machine",
+        "start_date": 2019,
+        "end_date": 2019,
+        "tags": ["raspberry pi", "3d-printing", "3d-modeling", "wiring"]
+    }
+]

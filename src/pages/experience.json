@@ -5,7 +5,8 @@
         "description": "Help manage and create a teacher dashboard for understanding the formative student writing process.",
         "start_date": "1/1/2022",
         "end_date": "",
-        "location": "Raleigh, NC"
+        "location": "Raleigh, NC",
+        "tags": ["dash", "javascript", "python", "kafka"]
     },
     {
         "title": "Research Assistant - Jenkins Data Miner",
@@ -13,7 +14,8 @@
         "description": "Created a package of scripts for mining student submission data in an early Computer Science course.",
         "start_date": "5/1/2021",
         "end_date": "8/15/2021",
-        "location": "Raleigh, NC"
+        "location": "Raleigh, NC",
+        "tags": ["pandas", "mysql", "python"]
     },
     {
         "title": "Teaching Assistant",
@@ -29,7 +31,8 @@
         "description": "Worked on a team of engineers developing the front end management portal for Digi Internet of Things products",
         "start_date": "5/1/2019",
         "end_date": "8/30/2019",
-        "location": "Rochester, MN"
+        "location": "Rochester, MN",
+        "tags": ["reactjs", "git", "testing"]
     },
     {
         "title": "Software Tester and Developer",
@@ -37,7 +40,8 @@
         "description": "Test and develop software in a student team for a client, Digi International.",
         "start_date": "11/1/2017",
         "end_date": "5/31/2020",
-        "location": "Winona, MN"
+        "location": "Winona, MN",
+        "tags": ["reactjs", "git", "docker", "java"]
     },
     {
         "title": "Peer Tutor",

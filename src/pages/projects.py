@@ -1,37 +1,44 @@
 # package imports
 from dash import html
 import dash_bootstrap_components as dbc
-import math
+import json
 import os
-import pandas as pd
 
 # set file location
 cwd = os.getcwd()
-file_path_in = os.path.join(cwd, 'pages', 'projects.csv')
-df = pd.read_csv(file_path_in)
-df.sort_values(['end_year', 'start_year'], ascending=False, inplace=True, na_position='first')
+file_path_in = os.path.join(cwd, 'pages', 'projects.json')
+with open(file_path_in, 'r') as f:
+    data = json.load(f)
 
-
-def create_project_listing(proj):
-    start_year = proj.get('start_year')
-    end_year = proj.get('end_year')
-    if math.isnan(end_year):
-        date_str = f'{start_year} - Present'
-    elif start_year == end_year:
-        date_str = start_year
-    else:
-        date_str = f'{start_year} - {end_year}'
+def create_proj_info(proj):
+    start = proj.get('start_date')
+    end = proj.get('end_date', 'present')
+    timeline = f'{start} - {end}' if start != end else start
+    title =  html.A(
+        proj.get('title'),
+        href=proj.get('link'),
+        target='_blank'
+    ) if proj.get('link', False) else proj.get('title')
     card = dbc.Card(
         [
-            html.H4(
-                html.A(
-                    proj.get('name'),
-                    href=proj.get('link'),
-                    target='_blank'
-                )
-            ),
-            html.Div(date_str),
-            html.Div(proj.get('description'))
+            html.H4(title),
+            html.Div(
+                [
+                    html.Div(timeline),
+                    html.P(proj.get('description')),
+                    html.Span(
+                        [
+                            dbc.Badge(
+                                tag,
+                                color='white',
+                                text_color='dark',
+                                class_name='border me-1'
+                            ) for tag in proj.get('tags', [])
+                        ]
+                    )
+                ],
+                className='ms-3'
+            )
         ],
         body=True,
         class_name='border-0'
@@ -39,19 +46,9 @@ def create_project_listing(proj):
     return card
 
 
-projects = [html.H3('Ongoing')]
-year = None
-for _, proj in df.iterrows():
-
-    start_year = proj.get('start_year')
-    end_year = proj.get('end_year')      
-    if start_year != year and not math.isnan(end_year):
-        if year:
-            projects.pop()
-        year = start_year
-        projects.append(html.H3(year))
-
-    projects.append(create_project_listing(proj))
+projects = []
+for d in data:
+    projects.append(create_proj_info(d))
     projects.append(html.Hr())
 projects.pop()
 

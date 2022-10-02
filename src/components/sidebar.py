@@ -14,38 +14,16 @@ sidebar = dbc.Card(
             src=f'{pic_path}',
         ),
         html.P(
-            'This is a short bio about me, maybe?'
+            'Hey y\'all, I\'m Brad Erickson'
         ),
-        html.Div(links, className='d-md-block d-none mb-3'),
+        html.Div(links, className='mb-3'),
         html.Div(
             [
                 html.I(className='fas fa-envelope me-2'),
                 'bericks @ ncsu.edu'
             ]
         ),
-        html.Div(
-            [
-                html.I(className='fab fa-github me-2'),
-                html.A(
-                    [
-                        'Github'
-                    ],
-                    href='https://github.com/bradley-erickson',
-                    target='_blank'
-                )
-            ]
-        ),
-        # html.Div(
-        #     html.A(
-        #         [
-        #             html.I(className='fas fa-graduation-cap me-2'),
-        #             'Google Scholar'
-        #         ],
-        #         href='https://github.com/bradley-erickson',
-        #         target='_blank'
-        #     )
-        # ),
     ],
-    class_name='border-0',
+    class_name='border-0 d-md-block d-none',
     body=True
 )

@@ -27,8 +27,18 @@ def create_job_info(job):
                             f' - {job.get("location")}'
                         ]
                     ),
-                    html.P(f'{start} - {end}'),
-                    html.P(job.get('description'))
+                    html.Div(f'{start} - {end}'),
+                    html.P(job.get('description')),
+                    html.Span(
+                        [
+                            dbc.Badge(
+                                tag,
+                                color='white',
+                                text_color='dark',
+                                class_name='border me-1'
+                            ) for tag in job.get('tags', [])
+                        ]
+                    )
                 ],
                 className='ms-3'
             )
