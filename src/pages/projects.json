@@ -10,14 +10,14 @@
         "title": "Trainer Hill - Back End",
         "description": "Created REST API with authentication to act as liaison between the database and frontend.",
         "start_date": 2021,
-        "tags": ["flask", "postgresql", "mongodb", "digital ocean", "python", "documentation"]
+        "tags": ["flask", "postgresql", "mongodb", "digital ocean", "python", "documentation", "cron", "REST"]
     },
     {
         "title": "Trainer Hill - Data Science",
         "description": "Researching different aspects of trading card games such as card text or simulation events.",
         "start_date": 2020,
         "link": "https://www.trainerhill.com/blog",
-        "tags": ["simulation", "analytics", "pandas", "machine learning", "nlp"]
+        "tags": ["simulation", "analytics", "pandas", "machine learning", "nlp", "python", "r"]
     },
     {
         "title": "Personal Website",

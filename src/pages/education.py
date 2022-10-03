@@ -15,7 +15,7 @@ layout = dbc.Card(
                             html.Div(
                                 [
                                     html.Div('Anticipated Dec. 2022, Raleigh, NC'),
-                                    html.Div('GPA: 3.91/4.0'),
+                                    html.Div('GPA: 3.92/4.0'),
                                     html.Strong('Masters of Computer Science'),
                                 ],
                                 className='ms-3'

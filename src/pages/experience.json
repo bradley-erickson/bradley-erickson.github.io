@@ -6,7 +6,7 @@
         "start_date": "1/1/2022",
         "end_date": "",
         "location": "Raleigh, NC",
-        "tags": ["dash", "javascript", "python", "kafka"]
+        "tags": ["dash", "javascript", "python", "kafka", "cron"]
     },
     {
         "title": "Research Assistant - Jenkins Data Miner",
@@ -15,7 +15,7 @@
         "start_date": "5/1/2021",
         "end_date": "8/15/2021",
         "location": "Raleigh, NC",
-        "tags": ["pandas", "mysql", "python"]
+        "tags": ["git", "pandas", "mysql", "data-mining", "python"]
     },
     {
         "title": "Teaching Assistant",
