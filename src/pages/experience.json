@@ -2,7 +2,11 @@
     {
         "title": "Research Assistant - Writing Observer",
         "company": "North Carolina State University",
-        "description": "Help manage and create a teacher dashboard for understanding the formative student writing process.",
+        "description": [
+            "Prototyped backend data streaming systems using **Kafka**.",
+            "Implemented automated backup scripts with **Cron** to manage system resources.",
+            "Designed and prototyped an asynchronous dashboard to provide grade school teachers with formative feedback on the student writing process using **Dash**."
+        ],
         "start_date": "1/1/2022",
         "end_date": "",
         "location": "Raleigh, NC",
@@ -20,7 +24,10 @@
     {
         "title": "Teaching Assistant",
         "company": "North Carolina State University",
-        "description": "Held offices hours and support sessions to help guide student learning.",
+        "description": [
+            "Led team of other teaching assistants to ensure the needs of the instructors were met.",
+            "Held office hours and review sessions to support student learning."
+        ],
         "start_date": "8/1/2020",
         "end_date": "12/31/2021",
         "location": "Raleigh, NC"
@@ -28,7 +35,10 @@
     {
         "title": "Software Engineering Intern",
         "company": "Digi International",
-        "description": "Worked on a team of engineers developing the front end management portal for Digi Internet of Things products",
+        "description": [
+            "Designed and developed ability to select, rearrange, and store columns for tables.",
+            "Developed general improvements to the online management portal using **ReactJS** while working in a **Scrum** environment."
+        ],
         "start_date": "5/1/2019",
         "end_date": "8/30/2019",
         "location": "Rochester, MN",
@@ -37,7 +47,11 @@
     {
         "title": "Software Tester and Developer",
         "company": "Winona State University",
-        "description": "Test and develop software in a student team for a client, Digi International.",
+        "description": [
+            "Tested and Developed software for a client, Digi International.",
+            "Automated deployment process with **Docker**.",
+            "Prototyped low-energy bluetooth device connectivity."
+        ],
         "start_date": "11/1/2017",
         "end_date": "5/31/2020",
         "location": "Winona, MN",
