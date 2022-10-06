@@ -1,5 +1,5 @@
 # package imports
-from dash import html, dcc
+from dash import html
 import dash_bootstrap_components as dbc
 from datetime import datetime as dt
 import json
@@ -13,11 +13,17 @@ with open(file_path_in, 'r') as f:
 date_format = '%B %#d, %G' if platform.system() == 'Windows' else '%B %-d, %G'
 
 
+def intersperse(lst, item):
+    result = [item] * (len(lst) * 2 - 1)
+    result[0::2] = lst
+    return result
+
+
 def create_job_info(job):
     start = dt.strptime(job.get('start_date'), '%m/%d/%Y').strftime(date_format)
     end = dt.strptime(job.get('end_date'), '%m/%d/%Y').strftime(date_format) if job.get('end_date') != '' else ''
     description_raw = job.get('description')
-    description = ' '.join(description_raw) if type(description_raw) == list else description_raw
+    description = intersperse(description_raw, ' ') if type(description_raw) == list else description_raw
     card = dbc.Card(
         [
             html.H4(job.get('title')),
@@ -30,7 +36,7 @@ def create_job_info(job):
                         ]
                     ),
                     html.Div(f'{start} - {end}'),
-                    dcc.Markdown(description),
+                    html.Div(description),
                     html.Span(
                         [
                             dbc.Badge(

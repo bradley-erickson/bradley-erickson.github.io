@@ -3,9 +3,9 @@
         "title": "Research Assistant - Writing Observer",
         "company": "North Carolina State University",
         "description": [
-            "Prototyped backend data streaming systems using **Kafka**.",
-            "Implemented automated backup scripts with **Cron** to manage system resources.",
-            "Designed and prototyped an asynchronous dashboard to provide grade school teachers with formative feedback on the student writing process using **Dash**."
+            "Prototyped backend data streaming systems using Kafka.",
+            "Implemented automated backup scripts with Cron to manage system resources.",
+            "Designed and prototyped an asynchronous dashboard to provide grade school teachers with formative feedback on the student writing process using Dash."
         ],
         "start_date": "1/1/2022",
         "end_date": "",
@@ -37,7 +37,7 @@
         "company": "Digi International",
         "description": [
             "Designed and developed ability to select, rearrange, and store columns for tables.",
-            "Developed general improvements to the online management portal using **ReactJS** while working in a **Scrum** environment."
+            "Developed general improvements to the online management portal using ReactJS while working in a Scrum environment."
         ],
         "start_date": "5/1/2019",
         "end_date": "8/30/2019",
@@ -49,7 +49,7 @@
         "company": "Winona State University",
         "description": [
             "Tested and Developed software for a client, Digi International.",
-            "Automated deployment process with **Docker**.",
+            "Automated deployment process with Docker.",
             "Prototyped low-energy bluetooth device connectivity."
         ],
         "start_date": "11/1/2017",
