@@ -56,7 +56,6 @@ clientside_callback(
     function(hash) {
         let a = Array(5).fill('d-none');
         const class_name = 'section-card';
-        console.log(a);
         if (hash === '#experience') {
             a[1] = class_name;
         } else if (hash === '#publications') {
