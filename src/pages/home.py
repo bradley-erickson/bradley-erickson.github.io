@@ -21,7 +21,7 @@ layout = dbc.Card(
                 html.Div(
                     [
                         html.I(className='fas fa-envelope me-2'),
-                        'bericks @ ncsu.edu'
+                        'bbwe24 @ gmail.com'
                     ]
                 )
             ],
