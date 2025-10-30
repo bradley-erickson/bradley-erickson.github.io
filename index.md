@@ -6,14 +6,14 @@ North Carolina
 
 Software Engineer specializing in real-time educational data platforms and competitive gaming analytics infrastructure. 5+ years building scalable Python backends and data pipelines.
 
-## Education ![][/assets/graduation-cap.svg]
+## Education ![](/assets/graduation-cap.svg)
 
 ---
 
 **MS Computer Science** | North Carolina State University | 2022
 **BS Computer Science, BS Data Science, BA Mathematics** (Minor Statistics) | Winona State University | 2020
 
-## Skills ![][/assets/brain.svg]
+## Skills ![](/assets/brain.svg)
 
 ---
 
@@ -25,7 +25,7 @@ Infrastructure | GIT, Docker, Postman, CRON, Digital Ocean, Sphinx
 Testing & Automation | pytest, GitHub Actions, CI/CD  
 Professional | Teaching / mentoring, collaboration, problem solving, time / project management, communication
 
-## Professional Experience ![][/assets/building.svg]
+## Professional Experience ![](/assets/building.svg)
 
 ---
 
@@ -42,7 +42,7 @@ Learning Observer Platform \- Educational data infrastructure serving K-12 resea
 * Developed open-source Python frameworks for educational data collection and analysis, enabling external researchers to extend the platform  
 * Led documentation initiative creating comprehensive API docs and deployment guides
 
-## Key Projects ![][/assets/code.svg]
+## Key Projects ![](/assets/code.svg)
 
 ---
 
@@ -56,7 +56,7 @@ Competitive Pokemon TCG analytics platform | [trainerhill.com](http://trainerhil
 * Self-managed production Digital Ocean infrastructure: PostgreSQL optimization (indexing, query tuning), Redis deployment, automated backups, SSL/CDN, and zero-downtime deployments  
 * Scaled platform to 20,000+ monthly page views through SEO optimization and content strategy; monetized via Google AdSense integration
 
-## Early Career ![][/assets/seedling.svg]
+## Early Career ![](/assets/seedling.svg)
 
 ---
 
@@ -83,7 +83,7 @@ Competitive Pokemon TCG analytics platform | [trainerhill.com](http://trainerhil
 
 * Provided technical support and documentation for small business clients
 
-## Publications ![][/assets/file.svg]
+## Publications ![](/assets/file.svg)
 
 ---
 
