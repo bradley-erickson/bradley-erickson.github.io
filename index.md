@@ -10,7 +10,7 @@ Software Engineer specializing in real-time educational data platforms and compe
 
 ---
 
-**MS Computer Science |** North Carolina State University | 2022
+**MS Computer Science** | North Carolina State University | 2022
 **BS Computer Science, BS Data Science, BA Mathematics** (Minor Statistics) | Winona State University | 2020
 
 ## Skills													    ![][image2]
@@ -29,7 +29,7 @@ Professional:		Teaching / mentoring, collaboration, problem solving, time / proj
 
 ---
 
-**Assistant Research Engineer |** Education Testing Service | Remote 				Feb 2023 – Present  
+**Assistant Research Engineer** | Education Testing Service | Remote 				Feb 2023 – Present  
 Learning Observer Platform \- Educational data infrastructure serving K-12 research initiatives | Python, Asyncio, Redis 
 
 * Designed query protocol enabling dashboards to view real-time student data  
@@ -46,7 +46,7 @@ Learning Observer Platform \- Educational data infrastructure serving K-12 resea
 
 ---
 
-**Full Stack Engineer |** Trainer Hill LLC | Personal Venture           			            Dec 2020 – Present  
+**Full Stack Engineer** | Trainer Hill LLC | Personal Venture           			            Dec 2020 – Present  
 Competitive Pokemon TCG analytics platform | [trainerhill.com](http://trainerhill.com) | Python, Flask, PostgreSQL, Redis, Dash
 
 * Architected REST API evolution: migrated from MongoDB to PostgreSQL, improving query performance for complex relational data  
