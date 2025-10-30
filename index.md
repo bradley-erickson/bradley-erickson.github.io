@@ -1,5 +1,5 @@
 <style>
-.inline-icon { height: 1em; width: auto; vertical-align: text-bottom; }
+.inline-icon { height: 1em; width: auto; vertical-align: text-top; margin-top: 4px }
 </style>
 
 # Bradley Erickson
@@ -33,8 +33,8 @@ Professional | Teaching / mentoring, collaboration, problem solving, time / proj
 
 ---
 
-**Assistant Research Engineer** | Education Testing Service | Remote | Feb 2023 – Present  
-Learning Observer Platform \- Educational data infrastructure serving K-12 research initiatives | Python, Asyncio, Redis 
+**Assistant Research Engineer** \| Education Testing Service \| Remote \| Feb 2023 – Present  
+Learning Observer Platform \- Educational data infrastructure serving K-12 research initiatives \| Python, Asyncio, Redis 
 
 * Designed query protocol enabling dashboards to view real-time student data  
 * Implemented CI/CD pipeline (GitHub Actions) automating documentation builds (Sphinx), test execution (pytest), and deployments—reducing release cycle from days to hours  
@@ -50,8 +50,8 @@ Learning Observer Platform \- Educational data infrastructure serving K-12 resea
 
 ---
 
-**Full Stack Engineer** | Trainer Hill LLC | Personal Venture | Dec 2020 – Present  
-Competitive Pokemon TCG analytics platform | [trainerhill.com](http://trainerhill.com) | Python, Flask, PostgreSQL, Redis, Dash
+**Full Stack Engineer** \| Trainer Hill LLC \| Personal Venture \| Dec 2020 – Present  
+Competitive Pokemon TCG analytics platform \| [trainerhill.com](https://trainerhill.com) \| Python, Flask, PostgreSQL, Redis, Dash
 
 * Architected REST API evolution: migrated from MongoDB to PostgreSQL, improving query performance for complex relational data  
 * Implemented Redis caching layer reducing response time for frequently accessed endpoints  
@@ -64,26 +64,26 @@ Competitive Pokemon TCG analytics platform | [trainerhill.com](http://trainerhil
 
 ---
 
-**Research Assistant \- Writing Observer** | North Carolina State University | Raleigh, NC | Jan 2022 ‒ Jan 2023
+**Research Assistant \- Writing Observer** \| North Carolina State University \| Raleigh, NC \| Jan 2022 ‒ Jan 2023
 
 * Built automated data pipeline with Cron handling daily backups of 10GB+ student writing datasets  
 * Designed and prototyped an *asynchronous* dashboard to provide grade school teachers with formative feedback on the student writing process using Dash
 
-**Teaching Assistant** | North Carolina State University | Raleigh, NC | Aug 2020 ‒ Dec 2021
+**Teaching Assistant** \| North Carolina State University \| Raleigh, NC \| Aug 2020 ‒ Dec 2021
 
 * Led TA team supporting 200+ CS students; held office hours and review sessions
 
-**Software Engineer Intern** |  Digi International | Rochester, MN | May 2019 ‒ Aug 2019
+**Software Engineer Intern** \|  Digi International \| Rochester, MN \| May 2019 ‒ Aug 2019
 
 * Developed ReactJS features for IoT management portal in Scrum environment
 
-**Software Developer and Tester** | Winona State University | Winona, MN | Nov 2017 ‒ May 2020
+**Software Developer and Tester** \| Winona State University \| Winona, MN \| Nov 2017 ‒ May 2020
 
 * Developed and tested IoT management portal features as part of university-industry partnership  
 * Containerized application deployment pipeline using Docker  
 * Prototyped low-energy bluetooth device connectivity
 
-**Tech Support Specialist** | VCS Technologies | Winona, MN | Aug 2016 ‒ Aug 2018
+**Tech Support Specialist** \| VCS Technologies \| Winona, MN \| Aug 2016 ‒ Aug 2018
 
 * Provided technical support and documentation for small business clients
 
