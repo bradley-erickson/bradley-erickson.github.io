@@ -1,2 +1,1 @@
-# dash-static-site
-Static dash site
+# Personal website
