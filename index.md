@@ -73,16 +73,12 @@ Winona State University · Winona, MN · Nov 2017 – May 2020
 * Containerized application deployment pipeline using Docker  
 * Prototyped low-energy Bluetooth device connectivity
 
-## 
-
 ## Education ![](/assets/graduation-cap.svg){:.inline-icon}												   
 
 ---
 
 **MS Computer Science** | North Carolina State University | 2022  
 **BS Computer Science, BS Data Science, BA Mathematics** (Minor Statistics) | Winona State University | 2020
-
-## 
 
 ## Skills ![](/assets/brain.svg){:.inline-icon}
 
