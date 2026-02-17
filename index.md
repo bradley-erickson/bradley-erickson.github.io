@@ -17,7 +17,7 @@ Software Engineer specializing in real-time data pipeline architecture, stream p
 
 ### Technical Lead — Assistant Research Engineer 
 
-Education Testing Service · Remote · Feb 2023 – Present
+Education Testing Service · Remote · Feb 2023 – Present · [Learning Observer](https://github.com/ArgLab/writing_observer)
 
 Served as principal engineer and architectural lead for the Learning Observer, an open-source, modular real-time data processing platform designed to make inferences from high-volume learning event streams. Originally joined the project during my MS at NC State, then transitioned to ETS to take over and expand its technical direction.
 
@@ -45,7 +45,7 @@ Served as principal engineer and architectural lead for the Learning Observer, a
 
 ### Full Stack Engineer 
 
-Trainer Hill LLC · Personal Venture · Dec 2020 – Present · [trainerhill.com](http://trainerhill.com)
+Trainer Hill LLC · Personal Venture · Dec 2020 – Present · [trainerhill.com](http://trainerhill.com) · [Github](https://github.com/Trainer-Hill)
 
 Independently designed, built, and operate a competitive Pokémon TCG analytics platform end-to-end — from data acquisition through production infrastructure.
 
