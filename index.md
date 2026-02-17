@@ -30,7 +30,7 @@ Served as principal engineer and architectural lead for the Learning Observer, a
 
 **Google Docs Writing Analytics Pipeline**
 
-* Engineered a pipeline to capture and restream Google Docs AJAX change-set events in real-time, reconstructing full document state through reducer-based processing and feeding NLP/AI inference layers (classical NLP, BERT, LLMs) developed by ETS research scientists  
+* Engineered a pipeline to capture and restream Google Docs AJAX change-set events in real-time, reconstructing full document state through reducer-based processing and feeding NLP/AI inference layers developed by ETS research scientists  
 * Co-developed a JavaScript event capture library supporting multiple logging frameworks and event schemas for classroom deployment
 
 **Deployment & Operations**
