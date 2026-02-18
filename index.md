@@ -9,7 +9,7 @@
 North Carolina
 
 
-Software Engineer specializing in real-time data pipeline architecture, stream processing systems, and interactive analytics platforms. 5+ years building scalable Python backends and end-to-end data infrastructure.
+Software Engineer specializing in real-time data pipeline architecture, stream processing systems, and full-stack analytics platforms. 5+ years building scalable Python backends, frontend dashboards, and end-to-end data infrastructure.
 
 ## Professional Experience ![](/assets/building.svg){:.inline-icon}
 
@@ -25,7 +25,7 @@ Served as principal engineer and architectural lead for the Learning Observer, a
 
 * Took ownership of and re-engineered the platform's core event processing pipeline into an async generator-based architecture built on reducer patterns, processing high-volume real-time student event streams into composable, queryable analytics  
 * Designed and implemented a SQL-like query language enabling dashboards to declaratively compose real-time aggregations over reducer-based data stores  
-* Built a pluggable frontend framework supporting dual dashboard architectures (Dash/Plotly and Next.js/React), allowing researchers to develop and deploy new analytics modules independently  
+* Built a pluggable frontend framework supporting dual dashboard architectures (Dash/Plotly and Next.js/React), enabling end-to-end development of analytics modules from data pipeline through interactive visualization  
 * Developed open-source Python frameworks for educational data collection and analysis, enabling external researchers to extend the platform without modifying core infrastructure
 
 **Google Docs Writing Analytics Pipeline**
@@ -33,11 +33,15 @@ Served as principal engineer and architectural lead for the Learning Observer, a
 * Engineered a pipeline to capture and restream Google Docs AJAX change-set events in real-time, reconstructing full document state through reducer-based processing and feeding NLP/AI inference layers developed by ETS research scientists  
 * Co-developed a JavaScript event capture library supporting multiple logging frameworks and event schemas for classroom deployment
 
-**Deployment & Operations**
+**Product Deployment**
 
 * Deployed platform as an LTI 1.3 application enabling single sign-on launches from Canvas, Schoology, and other LMS platforms across multiple school districts  
-* Implemented CI/CD pipeline with GitHub Actions automating documentation builds, test execution, and deployments — reducing release cycles from days to hours  
-* Collaborated directly with teachers across 4 schools, conducting workshops and iterating on design based on practitioner feedback from live classroom deployments  
+* Implemented CI/CD pipeline with GitHub Actions automating documentation builds, test execution, and deployments — reducing release cycles from days to hours
+
+**User Collaboration & Mentorship**
+
+* Collaborated directly with teachers across 4 schools, conducting workshops and driving iterative product design based on practitioner feedback from live classroom deployments  
+* Led end-to-end product development cycles from user requirements through frontend implementation and deployment  
 * Led documentation initiative producing comprehensive API references and deployment guides  
 * Mentored 3 graduate students on async Python patterns and system architecture
 
@@ -50,12 +54,12 @@ Trainer Hill LLC · Personal Venture · Dec 2020 – Present · [trainerhill.com
 Independently designed, built, and operate a competitive Pokémon TCG analytics platform end-to-end — from data acquisition through production infrastructure.
 
 * Architected an automated ETL pipeline that scrapes, normalizes, and aggregates thousands of tournament results from heterogeneous sources into a unified analytical data model  
-* Migrated from MongoDB to PostgreSQL to properly model complex relational data — deck compositions, matchup histories, tournament structures — significantly improving query performance  
+* Developed initial backend with MongoDB, then migrated to PostgreSQL to properly model complex relational data — deck compositions, matchup histories, tournament structures — significantly improving query performance  
 * Implemented Redis caching layer reducing response times for high-traffic analytical endpoints  
-* Built 12+ interactive analytical dashboards and tools using Dash and Plotly: deck performance metrics, meta-game trend analysis, card synergy identification, matchup predictions, and community-focused utilities  
-* Developed a paid game-tracking service enabling competitive players to log, analyze, and improve their tournament performance  
+* Built 12+ interactive analytics dashboards and tools using Dash and Plotly: deck performance metrics, meta-game trend analysis, card synergy identification, matchup predictions, and community-focused utilities  
+* Developed a game-tracking service enabling competitive players to log, analyze, and improve their tournament performance  
 * Managed production infrastructure on Digital Ocean: PostgreSQL optimization, Redis deployment, automated backups, SSL/CDN configuration, and zero-downtime deployments  
-* Grew platform to 20,000+ monthly page views; monetized through paid services and advertising
+* Grew platform to 20,000+ monthly page views
 
 ---
 
@@ -88,8 +92,8 @@ Languages 		| Python, Javascript, Bash
 Web & API		| Flask, FastAPI, Asyncio, Dash, React, Next.js, RESTful APIs, WebSockets, LTI 1.3  
 Data & Visualization 	| Pandas, NumPy, Plotly, Matplotlib, Shiny, Tableau  
 Databases 		| PostgreSQL, MySQL, Redis / ValKey, MongoDB  
-Infrastructure 		| GIT, Docker, Digital Ocean, Postman, Sphinx  
-Testing & CI?CD 	| pytest, GitHub Actions
+Infrastructure 		| Docker, Digital Ocean, git, Postman, Sphinx  
+Testing & CI/CD 	| pytest, GitHub Actions
 
 ## Publications  ![](/assets/file.svg){:.inline-icon}
 
