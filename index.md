@@ -51,7 +51,7 @@ Served as principal engineer and architectural lead for the Learning Observer, a
 
 Trainer Hill LLC · Personal Venture · Dec 2020 – Present · [trainerhill.com](http://trainerhill.com) · [Github](https://github.com/Trainer-Hill)
 
-Independently designed, built, and operate a competitive Pokémon TCG analytics platform end-to-end — from data acquisition through production infrastructure.
+Independently design, build, and operate a competitive Pokémon TCG analytics platform end-to-end — from data acquisition through production infrastructure.
 
 * Architected an automated ETL pipeline that scrapes, normalizes, and aggregates thousands of tournament results from heterogeneous sources into a unified analytical data model  
 * Developed initial backend with MongoDB, then migrated to PostgreSQL to properly model complex relational data — deck compositions, matchup histories, tournament structures — significantly improving query performance  
